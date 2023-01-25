@@ -9,6 +9,7 @@ app.use(express.json())
 connectDB()
 require('dotenv').config()
 
+app.use(cors())
 app.use('/user',userRouter)
 app.use('/produit',produitRouter)
 app.listen(port,err=>{
