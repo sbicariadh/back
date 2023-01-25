@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PrivateRoute = () => {
+const PrivateRoute = ()=> {
 
 
 const token =localStorage.getItem('token')
