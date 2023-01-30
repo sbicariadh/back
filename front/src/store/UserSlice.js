@@ -9,6 +9,8 @@ const UserSlice = createSlice({
     email:'@',
     password:'111',
     role:'user',
+    phone:'gg',
+    id:''
     
 
 
